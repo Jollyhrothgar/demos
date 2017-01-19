@@ -1,0 +1,13 @@
+*__pycache__*
+__pycache__
+demos
+demo_framework.log
+tags
+venv*
+run.command
+run_all.sh
+*.command
+server.log
+tests.log
+.ipynb_checkpoints*
+notebook
