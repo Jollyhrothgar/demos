@@ -1,2 +1,2 @@
-import plot_module.plot_module
+import plot_module
 
