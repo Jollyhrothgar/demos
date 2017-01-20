@@ -7,9 +7,6 @@ def nice_table():
     Prints a nice table
     """
     nice_table = {
-            0:"Nice features about Mike",
-            1:"he is nice",
-            2:"he built you this nice framework",
-            3:"he is devilishly handsom"
+            "Nice Features About Mike":["Nice features about Mike","he is nice","he built you this nice framework","he is devilishly handsome"]
     }
     return nice_table
