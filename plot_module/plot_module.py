@@ -36,3 +36,8 @@ def make_2D_data(x_min, x_max, num, ret_type='tuple', func=np.sin):
     else:
         raise ValueError("Return of {} must be an iterable representing 2D data set. Options are 'tuple' or 'dict'".format(name))
 
+@mlpux.Interactive()
+@mlpux.Plot2D(title='title',style='bar')
+@mlpux.Demo()
+def make_bar_chart(num_bars=10):
+    return (np.random.normal(loc=100,scale=10,size=num_bars)).tolist()
